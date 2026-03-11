@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Professional Registration Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>User Registration</h2>
+
+<form id="form">
+
+<div class="form-group">
+<label>Name</label>
+<input type="text" id="name" placeholder="Enter your name">
+<small id="nameError"></small>
+</div>
+
+<div class="form-group">
+<label>Email</label>
+<input type="email" id="email" placeholder="Enter email">
+<small id="emailError"></small>
+</div>
+
+<div class="form-group">
+<label>Phone</label>
+<input type="text" id="phone" placeholder="10 digit number">
+<small id="phoneError"></small>
+</div>
+
+<div class="form-group">
+<label>Password</label>
+
+<div class="password-container">
+<input type="password" id="password">
+<span id="toggle">👁</span>
+</div>
+
+<div class="strength-bar">
+<div id="strengthFill"></div>
+</div>
+
+<small id="passwordText"></small>
+
+</div>
+
+<button type="submit">Register</button>
+
+</form>
+
+</div>
+
+<h3>Registered Users</h3>
+
+<table id="userTable">
+<thead>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Phone</th>
+</tr>
+</thead>
+
+<tbody>
+
+</tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
