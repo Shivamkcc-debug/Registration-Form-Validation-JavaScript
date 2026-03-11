@@ -37,7 +37,7 @@ Stored users are displayed dynamically in a table below the form.
 
 How to Run the Project
 Clone the repository
-git clone https://github.com/YOUR_USERNAME/Registration-Form-Validation-JavaScript.git
+git clone https://github.com/Shivmkcc-debug/Registration-Form-Validation-JavaScript.git
 Open the project folder
 Run index.html in your browser
 
